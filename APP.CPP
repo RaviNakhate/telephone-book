@@ -87,7 +87,7 @@ void arrow(int inc)
 class Contact
 {
 	private:
-		long long int number,check;
+		unsigned long long int number,check;
 		char name[20];
 	public:
 		int input();
